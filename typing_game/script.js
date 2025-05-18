@@ -7,7 +7,7 @@ let currentWord = "";
 let wordIndex = 0;
 
 const wordDisplay = document.getElementById("word");
-const wordDisplay2 = document.getElementById("word2")
+getElementById("word2")
 const input = document.getElementById("input");
 const message = document.getElementById("message");
 const restartBtn = document.getElementById("restart");
@@ -16,8 +16,6 @@ const restartBtn = document.getElementById("restart");
 function setNewWord() {
   currentWord = words[Math.floor(Math.random() * words.length)];
   wordDisplay.textContent = currentWord;
-  wordDisplay2.textContent = currentWord;
-  input.value = "";
   message.textContent = "";
 }
 
