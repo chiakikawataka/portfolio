@@ -7,7 +7,7 @@ let currentWord = "";
 let wordIndex = 0;
 
 const wordDisplay = document.getElementById("word");
-getElementById("word2")
+
 const input = document.getElementById("input");
 const message = document.getElementById("message");
 const restartBtn = document.getElementById("restart");
